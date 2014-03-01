@@ -14,4 +14,4 @@ Template OpenShift project for synchronizing an existing GIT repository with Ope
 2. Manually run synchronization job
     * The default OpenShift content will be displayed until the cron job runs. To deploy the project immediately, perform the following operations
         * SSH into cartridge `rhc ssh <application_name>`
-        * Run the synchronization script: `${OPENSHIFT_REPO_DIR/clone_deploy_project.sh`
+        * Run the synchronization script: `${OPENSHIFT_REPO_DIR}/clone_deploy_project.sh`
