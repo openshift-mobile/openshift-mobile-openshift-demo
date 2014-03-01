@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ `date +%H` == "02" ]
+if [ `date +%H` == "04" ]
 then
     (
         $OPENSHIFT_REPO_DIR/clone_deploy_project.sh
