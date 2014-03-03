@@ -10,7 +10,7 @@ Template OpenShift project for synchronizing an existing GIT repository with Ope
 3. Add cron embedded cartridge
 
 ### Additional Configuration
-1. Synchronization job is scheduled to run daily at 2:00AM. This value can be modified in the `.openshift/cron/hourly/sync` script
+1. Synchronization job is scheduled to run daily at 4:00AM. This value can be modified in the `.openshift/cron/hourly/sync` script
 2. Manually run synchronization job
     * The default OpenShift content will be displayed until the cron job runs. To deploy the project immediately, perform the following operations
         * SSH into cartridge `rhc ssh <application_name>`
