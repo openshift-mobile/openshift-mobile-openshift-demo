@@ -5,7 +5,7 @@
 
 # Initialize script variables
 GIT_PROJECT_NAME=openshift-mobile
-GIT_URL=https://github.com/OpenShiftMobile/openshift-mobile-openshift-demo.git
+GIT_URL=https://github.com/OpenShiftMobile/openshift-mobile.git
 TOMCAT_DEPLOY_DIR=${HOME}/app-root/dependencies/jbossews/webapps
 
 # Execution will occur in OpenShift tmp Directory
@@ -15,7 +15,7 @@ cd $OPENSHIFT_TMP_DIR
 rm -rf ${GIT_PROJECT_NAME}
 
 # Clone Git Repository
-git clone $GIT_URL ${FOLDER_NAME}
+git clone $GIT_URL ${GIT_PROJECT_NAME}
 
 # Enter www Directory
 pushd $GIT_PROJECT_NAME/www
